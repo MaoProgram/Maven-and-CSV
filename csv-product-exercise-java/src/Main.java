@@ -20,7 +20,7 @@ public class Main {
                 seleccion = sc.nextInt();
                 switch (seleccion) {
 
-                    case 1-> productServic.cargarProductosDesdeCSV("C:\\Users\\acer\\IdeaProjects\\readerCSV\\csv-product-exercise-java\\resources\\inventory.csv");
+                    case 1-> productServic.cargarProductosDesdeCSV("C:\\Users\\Mauricio\\IdeaProjects\\Maven.and.CSV\\csv-product-exercise-java\\resources\\inventory.csv");
                     case 2-> productServic.add();
                     case 3-> productServic.remove();
                     case 4-> readerMavenCSV.readerMavenCSV();

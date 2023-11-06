@@ -20,7 +20,7 @@ public class readerMavenCSV {
 
         try {
             //3.leer el archivo CSV
-            FileReader fileReader = new FileReader("C:\\Users\\acer\\IdeaProjects\\readerCSV\\csv-product-exercise-java\\resources\\inventory.csv");
+            FileReader fileReader = new FileReader("C:\\Users\\Mauricio\\IdeaProjects\\Maven.and.CSV\\csv-product-exercise-java\\resources\\inventory.csv");
             CSVParser readerCSV = new CSVParser(fileReader, CSVFormat.DEFAULT);
 
 
